@@ -132,7 +132,6 @@ REST_FRAMEWORK = {
     ),
 }
 
-AUTH_USER_MODEL = "expense_tracker.UserModel"
 
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),  # default: 5 minutes
